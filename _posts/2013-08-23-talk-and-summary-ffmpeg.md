@@ -41,12 +41,12 @@ FFmpeg编译过程中会遇到很多编译的问题，有的时候还需要修�
 
  [编译FFmpeg遇到的问题汇总](/_posts/)
 
-##3. 移植FFmpeg到Android;
+##移植FFmpeg到Android;
 
 * [平台需求：将FFmpeg嵌入Android stagefright多媒体框架中](/_posts/)
 * [软件需求：Android应用开发中怎么使用FFmpeg](/_posts/)
 
-##4. 推荐两个不错的FFmpeg的博客：
+##推荐两个不错的FFmpeg的博客：
 
 * [http://blog.csdn.net/tx3344](http://blog.csdn.net/tx3344)
 * [http://xcshen.blog.51cto.com/2835389/d-1](http://xcshen.blog.51cto.com/2835389/d-1)
