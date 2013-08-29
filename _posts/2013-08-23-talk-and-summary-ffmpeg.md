@@ -29,24 +29,24 @@ tags:
 
 ####2. Android平台编译FFmpeg：
 
->Androd平台编译FFmpeg有很多方法，下面介绍比较常用的方法：
+Androd平台编译FFmpeg有很多方法，下面介绍比较常用的方法：
 
->1. [自己编写Android.mk来编译FFmpeg](/_posts/)
+1. [自己编写Android.mk来编译FFmpeg](/_posts/)
 
->2. [利用NDK的交叉编译环境直接通过FFmpeg的MakeFile编译](/_posts/)
+2. [利用NDK的交叉编译环境直接通过FFmpeg的MakeFile编译](/_posts/)
 
->**另外**，FFmpeg自己写了一套使用Android libstagefright硬件解码器的东西，在libavcodec/libstagefright.cpp这个文件中。
+**另外**，FFmpeg自己写了一套使用Android libstagefright硬件解码器的东西，在libavcodec/libstagefright.cpp这个文件中。
 
-> 默认情况下，这个文件是没有被编译到FFmpeg中的，需要打开相应的编译选项，
+ 默认情况下，这个文件是没有被编译到FFmpeg中的，需要打开相应的编译选项，
 enable-libstagefright-h264
 
-> 关于编译这个文件的文章，请看：
+ 关于编译这个文件的文章，请看：
 
-> [FFmpeg enable libstagefrith_h264编译](/_posts/)
+ [FFmpeg enable libstagefrith_h264编译](/_posts/)
 
-> FFmpeg编译过程中会遇到很多编译的问题，有的时候还需要修改源码，下面把我曾经遇到的编译问题归纳一下，可能不全，这里没有的话，多google几次肯定能够解决的：
+ FFmpeg编译过程中会遇到很多编译的问题，有的时候还需要修改源码，下面把我曾经遇到的编译问题归纳一下，可能不全，这里没有的话，多google几次肯定能够解决的：
 
-> [编译FFmpeg遇到的一揽子问题](/_posts/)
+ [编译FFmpeg遇到的一揽子问题](/_posts/)
 
 ####3. 移植FFmpeg到Android;
 
