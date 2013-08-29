@@ -7,7 +7,7 @@ tags:
 
 ![ffmpeg-logo](/media/files/2013/08/29/ffmpeg-logo.png)
 
-##视频文件播放流程
+###视频文件播放流程
 以AVC+AAC的matroska(mkv)文件为例：
 
 ####会经过如下几步：
@@ -58,7 +58,7 @@ encoder/decoder的接口是一样的，只不过二者分别只实现encoder和d
     int (*close)(AVCodecContext *);
     int (*decode)(AVCodecContext *, void *outdata, int *outdata_size, uint8_t *buf, int buf_size);
 
-###muxer/demuxer匹配
+###muxer/demuxer的初始化和匹配
 1. 在libavformat\allformats.c文件的av_register_all(void)函数中，通过执行
    *REGISTER_MUXDEMUX(MATROSKA, matroska);*
 
