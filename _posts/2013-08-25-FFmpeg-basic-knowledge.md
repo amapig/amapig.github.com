@@ -1,11 +1,11 @@
 ---
-title: "白话FFmpeg--（二）FFmpeg介绍"
+title: '白话FFmpeg--（二）FFmpeg介绍'
 layout: post
-tags: 
-  - FFmpeg
-published: true
+tags:
+    - FFmpeg
 ---
 
+![ffmpeg-logo](/media/files/2013/08/29/ffmpeg-logo.png)
 ###FFmpeg简介
 FFmpeg是一个集录制、转换、音/视频编码解码功能为一体的完整的开源解决方案。FFmpeg的
 开发是基于Linux操作系统，但是可以在大多数操作系统中编译和使用。FFmpeg支持MPEG、

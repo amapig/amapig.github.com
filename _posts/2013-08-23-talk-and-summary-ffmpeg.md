@@ -17,14 +17,14 @@ tags:
 
 ###1. FFmpeg基础：
 
-*    [FFmpeg介绍](http://amapig.github.io/2013/08/25/FFmpeg-basic-knowledge.html)
-*    [FFmpeg架构分析](/_posts/)
-*    FFmpeg的使用:
+* [FFmpeg介绍](http://amapig.github.io/2013/08/25/FFmpeg-basic-knowledge.html)
+* [FFmpeg架构分析](/_posts/)
+* FFmpeg的使用:
 
-      **推荐两篇文章:**
+**推荐两篇文章:**
 	
-	   1. [How to Write a Video Player in Less Than 1000 Lines](http://dranger.com/ffmpeg/)
-	   2. [Using libavformat and libavcodec](http://www.inb.uni-luebeck.de/~boehme/using_libavcodec.html)
+1. [How to Write a Video Player in Less Than 1000 Lines](http://dranger.com/ffmpeg/)
+2. [Using libavformat and libavcodec](http://www.inb.uni-luebeck.de/~boehme/using_libavcodec.html)
 	
 
 ###2. Android平台编译FFmpeg：
@@ -37,27 +37,25 @@ Androd平台编译FFmpeg有很多方法，下面介绍比较常用的方法：
 
 **另外**，FFmpeg自己写了一套使用Android libstagefright硬件解码器的东西，在libavcodec/libstagefright.cpp这个文件中。
 
- 默认情况下，这个文件是没有被编译到FFmpeg中的，需要打开相应的编译选项，
+默认情况下，这个文件是没有被编译到FFmpeg中的，需要打开相应的编译选项，
 enable-libstagefright-h264
 
- 关于编译这个文件的文章，请看：
+关于编译这个文件的文章，请看：
 
  [FFmpeg enable libstagefrith_h264编译](/_posts/)
 
- FFmpeg编译过程中会遇到很多编译的问题，有的时候还需要修改源码，下面把我曾经遇到的编译问题归纳一下，可能不全，这里没有的话，多google几次肯定能够解决的：
+FFmpeg编译过程中会遇到很多编译的问题，有的时候还需要修改源码，下面把我曾经遇到的编译问题归纳一下，可能不全，这里没有的话，多google几次肯定能够解决的：
 
  [编译FFmpeg遇到的问题](/_posts/)
 
 ###3. 移植FFmpeg到Android;
 
 * [平台需求：将FFmpeg嵌入Android stagefright多媒体框架中](/_posts/)
-
 * [软件需求：Android应用开发中怎么使用FFmpeg](/_posts/)
 
 ###4. 推荐两个不错的FFmpeg的博客：
 
 * [http://blog.csdn.net/tx3344](http://blog.csdn.net/tx3344)
-
 * [http://xcshen.blog.51cto.com/2835389/d-1](http://xcshen.blog.51cto.com/2835389/d-1)
 
 ###End
