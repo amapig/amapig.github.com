@@ -1,8 +1,9 @@
 ---
-title: '白话FFmpeg--（二）FFmpeg介绍'
+title: "白话FFmpeg--（二）FFmpeg介绍"
 layout: post
-tags:
-    - FFmpeg
+tags: 
+  - FFmpeg
+published: true
 ---
 
 ###FFmpeg简介
