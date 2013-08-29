@@ -17,16 +17,13 @@ tags:
 
 ####1. FFmpeg基础：
 
-* [FFmpeg介绍](/_posts/2013-08-25-FFmpeg-basic-knowledge.md)
-
+* [FFmpeg介绍](http://amapig.github.io/2013/08/25/FFmpeg-basic-knowledge.html)
 * [FFmpeg架构分析](/_posts/)
-
 * FFmpeg的使用:
 
 	**推荐两篇文章:**
 	
 	1. [How to Write a Video Player in Less Than 1000 Lines](http://dranger.com/ffmpeg/)
-	
 	2. [Using libavformat and libavcodec](http://www.inb.uni-luebeck.de/~boehme/using_libavcodec.html)
 	
 
