@@ -17,14 +17,14 @@ tags:
 
 ####1. FFmpeg基础：
 
-* [FFmpeg介绍](http://amapig.github.io/2013/08/25/FFmpeg-basic-knowledge.html)
-* [FFmpeg架构分析](/_posts/)
-* FFmpeg的使用:
+   * [FFmpeg介绍](http://amapig.github.io/2013/08/25/FFmpeg-basic-knowledge.html)
+   * [FFmpeg架构分析](/_posts/)
+   * FFmpeg的使用:
 
-	**推荐两篇文章:**
+      **推荐两篇文章:**
 	
-	1. [How to Write a Video Player in Less Than 1000 Lines](http://dranger.com/ffmpeg/)
-	2. [Using libavformat and libavcodec](http://www.inb.uni-luebeck.de/~boehme/using_libavcodec.html)
+	   1. [How to Write a Video Player in Less Than 1000 Lines](http://dranger.com/ffmpeg/)
+	   2. [Using libavformat and libavcodec](http://www.inb.uni-luebeck.de/~boehme/using_libavcodec.html)
 	
 
 ####2. Android平台编译FFmpeg：
@@ -46,7 +46,7 @@ enable-libstagefright-h264
 
  FFmpeg编译过程中会遇到很多编译的问题，有的时候还需要修改源码，下面把我曾经遇到的编译问题归纳一下，可能不全，这里没有的话，多google几次肯定能够解决的：
 
- [编译FFmpeg遇到的一揽子问题](/_posts/)
+ [编译FFmpeg遇到的问题](/_posts/)
 
 ####3. 移植FFmpeg到Android;
 
