@@ -23,9 +23,9 @@ tags:
 
 ##Android平台编译FFmpeg：
 
-Androd平台编译FFmpeg有很多方法，下面介绍比较常用的两种方法：
+Android编译底层c/c++库一般有这样两种方式：
 
-1. [自己编写Android.mk来编译FFmpeg](/_posts/)
+1. [自己编写Android.mk来编译FFmpeg(不推荐)](/_posts/)
 
 2. [利用NDK的交叉编译环境直接通过FFmpeg的MakeFile编译](/_posts/)
 
