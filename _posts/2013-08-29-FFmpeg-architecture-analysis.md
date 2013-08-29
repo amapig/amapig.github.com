@@ -88,4 +88,6 @@ encoder/decoder的接口是一样的，只不过二者分别只实现encoder和d
 3. demuxer的匹配
 
     FFmpeg怎么确认用哪个demuxer来解析当前文件呢？它依靠什么来判断的呢？
+    
 
+###TODO：未完，待续～
