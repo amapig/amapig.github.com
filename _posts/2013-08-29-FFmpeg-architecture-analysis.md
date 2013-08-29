@@ -1,5 +1,5 @@
 ---
-title: '白话FFmpeg--（二）FFmpeg架构分析'
+title: '白话FFmpeg--（三）FFmpeg架构分析'
 layout: post
 tags:
     - FFmpeg
@@ -8,7 +8,7 @@ tags:
 ![ffmpeg-logo](/media/files/2013/08/29/ffmpeg-logo.png)
 
 ##视频文件播放流程
-*以AVC+AAC的matroska(mkv)文件为例：*
+以AVC+AAC的matroska(mkv)文件为例：
 
 会经过如下几步：
 
