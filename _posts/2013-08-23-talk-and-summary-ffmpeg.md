@@ -43,8 +43,8 @@ FFmpeg编译过程中会遇到很多编译的问题，有的时候还需要修�
 
 ##移植FFmpeg到Android;
 
-* [平台需求：将FFmpeg嵌入Android stagefright多媒体框架中](/_posts/)
-* [软件需求：Android应用开发中怎么使用FFmpeg](/_posts/)
+* [平台需求：将FFmpeg嵌入Android stagefright多媒体框架中](http://amapig.github.io/2013/08/30/platform-requirement-import-ffmpeg-in-Android-multimedia-framework.html)
+* [软件需求：Android应用开发中怎么使用FFmpeg](http://amapig.github.io/2013/08/30/software-requirements-how-to-use-ffmpeg-in-android-application-development.html)
 
 ##推荐两个不错的FFmpeg的博客：
 
