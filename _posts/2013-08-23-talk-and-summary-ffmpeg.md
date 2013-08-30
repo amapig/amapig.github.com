@@ -1,5 +1,5 @@
 ---
-title: '白话FFmpeg--(一)'
+title: '白话FFmpeg--(一)开始'
 layout: post
 tags:
     - FFmpeg
@@ -35,7 +35,7 @@ Android编译底层c/c++库一般有这样两种方式：
 
 关于编译这个文件的文章，请看：
 
-[FFmpeg enable libstagefrith_h264编译](/_posts/)
+[FFmpeg enable libstagefrith_h264编译](http://amapig.github.io/2013/08/30/compile-libstagefright-cpp-in-ffmpeg.html)
 
 FFmpeg编译过程中会遇到很多编译的问题，有的时候还需要修改源码，下面把我曾经遇到的编译问题归纳一下，可能不全，以后陆续补充，不过这里没有的话，多google几次肯定能够解决的：
 
