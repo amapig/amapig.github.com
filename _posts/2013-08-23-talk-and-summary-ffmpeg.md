@@ -16,7 +16,7 @@ tags:
 ##FFmpeg基础：
 
 * [FFmpeg介绍](http://amapig.github.io/2013/08/25/FFmpeg-basic-knowledge.html)
-* [FFmpeg架构分析](/_posts/)
+* [FFmpeg架构分析](http://amapig.github.io/2013/08/29/FFmpeg-architecture-analysis.html)
 * FFmpeg的使用（推荐两篇文章）：
     1. [How to Write a Video Player in Less Than 1000 Lines](http://dranger.com/ffmpeg/)
     2. [Using libavformat and libavcodec](http://www.inb.uni-luebeck.de/~boehme/using_libavcodec.html)
@@ -25,9 +25,9 @@ tags:
 
 Android编译底层c/c++库一般有这样两种方式：
 
-1. [自己编写Android.mk来编译FFmpeg(不推荐)](/_posts/)
+1. [自己编写Android.mk来编译FFmpeg(不推荐)](http://amapig.github.io/2013/08/29/write-an-android-mk-file-to-build-ffmpeg.html)
 
-2. [利用NDK的交叉编译环境直接通过FFmpeg的MakeFile编译](/_posts/)
+2. [利用NDK的交叉编译环境直接通过FFmpeg的MakeFile编译](http://amapig.github.io/2013/08/30/how-to-build-ffmpeg-for-android-with-ndk.html)
 
 **另外，FFmpeg自己写了一套使用Android libstagefright硬件解码器的东西，在libavcodec/libstagefright.cpp这个文件中。默认情况下，这个文件是没有被编译到FFmpeg中的，需要打开相应的编译选项，**
 
