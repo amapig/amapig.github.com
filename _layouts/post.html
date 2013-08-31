@@ -7,7 +7,8 @@ layout: default
   </section>
   <section class="meta">
   <span class="time">
-    <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
+	  <!-- <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time> -->
+	  <p class="meta">{{ page.date | date_to_string }}</p>
   </span>
   {% if page.tags %}
   <span class="tags">
@@ -17,6 +18,8 @@ layout: default
   </span>
   {% endif %}
   </section>
+  <br />
+  <br />
   <section class="post">
   {{ content }}
   </section>
